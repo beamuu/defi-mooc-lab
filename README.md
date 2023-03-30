@@ -1,5 +1,32 @@
-# Hands-on Exercise: Flash Loan based Liquidation
 
+# Hands-on Exercise: Flash Loan based Liquidation
+#### Modified by Nutchanon C. (6210503578) 
+For CeFi vs DeFi course, Kasetsart University 2023
+
+### Getting started
+Installing dependencies
+```
+npm i
+```
+Please register an account on https://www.alchemy.com/ for access to an archive Ethereum node. Then use your Alchemy API in the .env file
+```
+ALCHE_API=https://eth-mainnet.g.alchemy.com/<...>
+```
+To test the liquidation from the assignment, please run
+```
+npm run test
+```
+
+### Liquidation cases
+1. (Question 2) Liquidate `0x59CE4a2AC5bC3f5F225439B2993b86B42f6d3e9F` with 2000, 5000, and 10000 USDT.
+2. (Question 3) Liquidate `0x63f6037d3e9d51ad865056BF7792029803b6eEfD` with 8520 USDC.
+
+The profit will be shown on the test result.🚀
+
+<br />
+
+
+# For the original README 👇🏻
 ## Exercise
 In this exercise, you are expected to implement a smart contract that performs a flash loan based liquidation.
 
